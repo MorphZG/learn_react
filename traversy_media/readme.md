@@ -1,5 +1,7 @@
 # React Crash Course 2024
 
+continue at: [Boilerplate cleanup](https://www.youtube.com/watch?v=LDB4uaJ87e0&t=1511s)
+
 ## Table of Contents
 - [React Crash Course 2024](#react-crash-course-2024)
   - [Table of Contents](#table-of-contents)
@@ -14,7 +16,7 @@
 
 Learn the basics of React, such as components, props, state, data fetching, and more, while building a job listing frontend. By the end of the project we will complete the job listings website. Front-end will show new job listings with short description, location and average salary. It will pull dummy data from the mock backend created with the simple json server with basic CRUD funcionality. Simple project with emphasis on fundamentals.
 
-Published and created by [Traversy Media youtube cahnnel](https://www.youtube.com/@TraversyMedia).
+Published and created by Traversy Media youtube chanel [React Crash Course 2024](https://www.youtube.com/watch?v=LDB4uaJ87e0)
 
 ## My notes
 
@@ -22,7 +24,7 @@ Published and created by [Traversy Media youtube cahnnel](https://www.youtube.co
 
 Since this is a SPA (Single page application), `index.html` is the main starting point where everything comes together. The entire app's code is organised in the `src/` directory but after user requsts the page, everything is rendered inside a single .html file. Everything at once. This HTML file contains a placeholder or "root" element that react uses as the mounting point, usually simple `<div id="root"></div>`. React dynamically injects and manages the app's components using JavaScript, creating a seamless user experience without the need to reload the entire page. This means that initial loading time is a bit longer.
 
-Entire javascript bundle must be downloaded, parsed and executed before the app becomes interactive. However, there are several strategies to optimise the initial loading time. Code splitting, lazy loading, tree shaking (minimise the size of the javascript bundle by including only the code that is actually used), server-side rendering (SSR, render the initial html on the server and send it to the cient, allow users to see the content faster while in the background javascript loads and hydrates the app as needed)... There are many more optimisation strategies but the point is that single page applications (SPA) needs a bit more time after initial request and later the user experience is smooth and seamless even when user browse through different pages. There is no need to reload or refresh since everything is already loaded. Browsing through different pages is handled by the `React-router`.
+Entire javascript bundle must be downloaded, parsed and executed before the app becomes interactive. However, there are several strategies to optimise the initial loading time. Code splitting, lazy loading, tree shaking (minimise the size of the javascript bundle by including only the code that is actually used), server-side rendering (SSR, render the initial html on the server and send it to the client, allow users to see the content faster while in the background javascript loads and hydrates the app as needed)... There are many more optimisation strategies but the point is that single page applications (SPA) needs a bit more time after initial request and later the user experience is smooth and seamless even when user browse through different pages. There is no need to reload or refresh since everything is already loaded. Browsing through different pages is handled by the `React-router`.
 
 ### What happens after initial request by the user?
 
