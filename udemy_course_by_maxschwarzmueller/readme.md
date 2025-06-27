@@ -1,5 +1,3 @@
-continue at: chapter 3, video 012
-
 # React course - The complete guide by Maximilian Schwarzmüller
 
 ## Maximilian Schwarzmuller
