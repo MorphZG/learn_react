@@ -2,6 +2,8 @@
 
 ## Maximilian Schwarzmuller
 
+AWS certified, Professional Web Developer and Instructor.
+
 - [academind.com/courses](https://academind.com/)
 - [youtube.com/channel](https://www.youtube.com/@maximilian-schwarzmueller)
 - [github.com/profile](https://github.com/maxschwarzmueller)
@@ -25,16 +27,23 @@ For possible corrections and deviations there is a `CHANGELOG.md` file available
 
 - [github.com/repository](https://github.com/mschwarzmueller/book-react-key-concepts-e2)
 
-
+---
 ## O'Reilly - Learning react: Modern patterns for developing react apps
+
+Learning React Book Cover 	If you want to learn how to build efficient React applications, this is your book. This updated edition provides best practices and patterns for writing modern React code including a deep dive on React Hooks.
 
 ### book by Alex Banks and Eve Porcello
 
+"This is the React book that’s been missing from the frontend community. Alex and Eve not only discuss React in-depth but cover foundational JavaScript concepts, testing, state management, and more. Plus, they do so with approachable language and humor. I cannot recommend Learning React highly enough." - Emma Bostian, Software Engineer at Spotify
+
 #### Resources
 
-- [github.com/repository](https://github.com/MorphZG/learn_code/tree/main/book%20modern_fullstack_react)
+- [github.com/repository](https://github.com/moonhighway/learning-react)
 
+---
 ## Traversy media
+
+Full stack web developer and online instructor, specializiing in mostly JS, but also write Python, PHP and some other stuff.
 
 - [github.com/profile](https://github.com/bradtraversy)
 
